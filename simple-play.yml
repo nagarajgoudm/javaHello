@@ -1,0 +1,10 @@
+---
+- hosts: test-servers
+  become: true
+  tasks:
+   - shell : echo "install nginx"
+   - shell : echo "......"
+   - shell : mkdir naga
+   - shell : exit
+   - shell : echo "successfully exited from root"
+   - shell : echo "process successful"
