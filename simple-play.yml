@@ -1,5 +1,5 @@
 ---
-- hosts: test-servers
+- hosts: host-servers
   become: true
   tasks:
    - shell : echo "install nginx"
